@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#background {
+    background-color: #fdf2f2;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(252, 243, 243);
+}
+
+.header {
+    background-color: #E00500;
+    color: white;
+    text-align: center;
+    font-size: medium;
+    font-size: 12px;
+    padding: 12px;
+}
+
+.imageSwift {
+    display: inline-block;
+    
+}
+
+.imageSwift img {
+    position: fixed;
+    display: inline-block;
+    clip: rect(0, 300px, 1200px, 0);
+    left: 1250px;
+    top: 120px;
+    
+}
+
+.container div form select{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 450px;
+    text-align: center;
+    color: red;
+    text-decoration: none;
+    font-weight: bolder;
+    text-align: center;
+    text-align-last: center;
+    font-size: large;
+    padding-left: 15px;
+    padding-top: 3px;
+}
+
+.container div form input{
+    position: relative;
+    width: 480px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 450px;
+    font-size: large;
+    color: red;
+    padding: 5px;
+    font-weight: bolder;
+    padding-left: 15px;
+    padding-top: 3px;
+}
+
+#button{
+    height: 40px;
+    width: 130px;
+    padding: 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 190px;
+    font-size: medium;
+    background-color: rgb(129, 10, 10);
+    color: white;
+    border-radius: 10px;
+}
+
+#button:hover{
+    background-color: white;
+    color: red;
+    cursor: pointer;
+    border: 2px solid black;
+    font-weight: bolder;
+}
+
+::placeholder {
+    color: red;
+}
